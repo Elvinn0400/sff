@@ -1,0 +1,59 @@
+.navbar {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCLDEyFHF2NwIil8inUZjkCQZfO3l8KzAGmg&usqp=CAU);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar .ust {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 80%;
+  margin: 0px auto;
+}
+.navbar .ust .ust-img {
+  background-color: black;
+}
+.navbar .ust #bar {
+  padding-right: 5%;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar ul a {
+  text-decoration: none;
+}
+
+.alt {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  margin: 14px 10%;
+  justify-content: flex-end;
+  gap: 50px;
+  align-items: center;
+  padding-right: 20px;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+.alt img {
+  padding-right: 20%;
+}
+.alt li a {
+  color: black;
+}
+
+.alt :hover {
+  color: aqua;
+}
+
+.ort {
+  text-align: center;
+  color: rgb(94, 44, 44);
+  margin-top: 200px;
+  font-size: 30px;
+}
+.ort #serv {
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */
